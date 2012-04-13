@@ -1,0 +1,48 @@
+body {
+	background: url(../images/bg.png);
+	font-family: "Century Gothic", Arial, Verdana;
+}
+
+#top, #middle {
+	height: 123456px;
+}
+
+#top, #bottom {
+	font-size: 40px;	
+}
+
+#bottom {
+	text-align: right;
+}
+
+#container {
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 15px;
+	width: 900px;	
+	border: 1px #cfcfcf solid;
+	border-radius: 7px;
+	background: #fff;
+}
+
+#container a {
+	text-decoration: none;
+	color: #cfcfcf;
+}
+
+#container a:hover {
+	text-decoration: underline;
+}
+
+#middle span {
+	color: #fff;
+}
+
+::selection {
+	background: #fff;
+}
+
+::-moz-selection {
+	background: #fff;
+}
